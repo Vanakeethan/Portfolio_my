@@ -641,16 +641,16 @@ const App: React.FC = () => {
                 <h2 className="text-5xl sm:text-7xl lg:text-[13rem] font-black mb-16 lg:mb-24 tracking-tighter heading-transition">Connect.</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 mb-32">
                   <a href={`mailto:${CONTACT.email}`} className="p-10 lg:p-16 bg-zinc-950 dark:bg-white text-white dark:text-black rounded-[2rem] lg:rounded-[3rem] hover:scale-[1.02] active:scale-95 transition-all flex flex-col items-center gap-8 shadow-2xl group cursor-pointer text-center">
-                    <Mail size={48} className="group-hover:rotate-12 transition-transform duration-500" />
+                    <Mail size={45} className="group-hover:rotate-12 transition-transform duration-500" />
                     <div>
-                      <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Direct Terminal</p>
+                      <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Reach Me at</p>
                       <p className="text-lg sm:text-xl lg:text-2xl font-black tracking-tight underline decoration-zinc-500 underline-offset-8 break-all">{CONTACT.email}</p>
                     </div>
                   </a>
                   <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="p-10 lg:p-16 bg-white dark:bg-zinc-900 text-black dark:text-white rounded-[2rem] lg:rounded-[3rem] hover:scale-[1.02] active:scale-95 transition-all flex flex-col items-center gap-8 border border-zinc-200 dark:border-zinc-800 shadow-lg group cursor-pointer text-center">
-                    <Github size={48} className="group-hover:-rotate-12 transition-transform duration-500" />
+                    <Github size={45} className="group-hover:-rotate-12 transition-transform duration-500" />
                     <div>
-                      <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Source Hub</p>
+                      <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">GitHub</p>
                       <p className="text-lg sm:text-xl lg:text-2xl font-black tracking-tight underline decoration-zinc-500 underline-offset-8">/vanakeethan</p>
                     </div>
                   </a>
@@ -666,18 +666,18 @@ const App: React.FC = () => {
 
                   {CONTACT.instagram && (
                     <a href={CONTACT.instagram} target="_blank" rel="noopener noreferrer" className="p-10 lg:p-16 bg-zinc-100 dark:bg-zinc-900 text-black dark:text-white rounded-[2rem] lg:rounded-[3rem] hover:scale-[1.02] active:scale-95 transition-all flex flex-col items-center gap-8 border border-zinc-200 dark:border-zinc-700 shadow-lg group cursor-pointer text-center">
-                      <Instagram size={48} className="group-hover:scale-110 transition-transform duration-500" />
+                      <Instagram size={45} className="group-hover:scale-110 transition-transform duration-500" />
                       <div>
-                        <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Social Loop</p>
+                        <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Social Media</p>
                         <p className="text-lg sm:text-xl lg:text-2xl font-black tracking-tight underline decoration-zinc-500 underline-offset-8">/vanakeethan__</p>
                       </div>
                     </a>
                   )}
                   {CONTACT.medium && (
                     <a href={CONTACT.medium} target="_blank" rel="noopener noreferrer" className="p-10 lg:p-16 bg-zinc-950 dark:bg-white text-white dark:text-black rounded-[2rem] lg:rounded-[3rem] hover:scale-[1.02] active:scale-95 transition-all flex flex-col items-center gap-8 shadow-2xl group cursor-pointer text-center">
-                      <BookText size={48} className="group-hover:-translate-y-2 transition-transform duration-500" />
+                      <BookText size={45} className="group-hover:-translate-y-2 transition-transform duration-500" />
                       <div>
-                        <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Insights Hub</p>
+                        <p className="text-[10px] font-black uppercase tracking-[0.5em] opacity-40 mb-4">Articles</p>
                         <p className="text-lg sm:text-xl lg:text-2xl font-black tracking-tight underline decoration-zinc-500 underline-offset-8 break-all">@shamdeepvk</p>
                       </div>
                     </a>
