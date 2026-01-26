@@ -110,13 +110,13 @@ export const EDUCATION: Education[] = [
     institution: "University of Moratuwa",
     degree: "B.Sc. (Hons) in Information Technology",
     period: "Nov 2018 – July 2023",
-    details: ["Focused on Systems Engineering and Enterprise Architectures", "Cumulative GPA: 3.04"]
+    details: ["Focused on Software Engineering and Enterprise Architectures", "Cumulative GPA: 3.04"]
   },
   {
     institution: "Jaffna Hindu College",
     degree: "Advanced Level (Physical Science)",
     period: "2017",
-    details: ["Achieved 2 A's and 1 B in core science subjects", "Distinction in Mathematics and Physics"]
+    details: ["Achieved 2 A's and 1 B in core science subjects", "Distinction in Mathematics and Chemistry"]
   }
 ];
 
@@ -127,7 +127,7 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     name: "AWS Cloud Practitioner (Certified)",
-    link: "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
+    //link: "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/"
   },
   {
     name: "Cisco: Introduction to Cybersecurity & Networking",
